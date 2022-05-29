@@ -1,0 +1,11 @@
+name: Cleanup
+version: '${project.version}'
+main: de.allescrepe.cleanup.Cleanup
+api-version: 1.18
+authors: [ Allescrepe ]
+description: Clean Items
+
+commands:
+  cleanup:
+    description: "Delet all Items"
+    permission: "cleanup"
